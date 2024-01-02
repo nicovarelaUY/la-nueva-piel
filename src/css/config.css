@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'PantonDemo-Light';
+  src: url('../Fonts/PantonDemo-Light.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Archivo-VariableFont';
+  src: url('../Fonts/Archivo-VariableFont.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;/* Ajusta los valores según tus preferencias */
+}
+
+@font-face {
+  font-family: 'Archivo-Italic-VariableFon';
+  src: url('../Fonts/Archivo-Italic-VariableFont.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;/* Ajusta los valores según tus preferencias */
+}
+
+@font-face {
+  font-family: 'Archivo-BOLD-VariableFon';
+  src: url('../Fonts/Archivo-Italic-VariableFont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;/* Ajusta los valores según tus preferencias */
+}
+
+@font-face {
+  font-family: 'PantonDemo-LightItalic';
+  src: url('../Fonts/PantonDemo-LightItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Panton-Trial-ExtraLightItalic';
+  src: url('../Fonts/Panton-Trial-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200; /* Puede variar según la clasificación de peso de la fuente */
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Panton-Trial-LightItalic';
+  src: url('../Fonts/Panton-Trial-LightItalic.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Panton-Trial-BoldItalic';
+  src: url('../Fonts/Panton-Trial-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Panton-Trial-RegularItalic';
+  src: url('../Fonts/Panton-Trial-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bordas';
+  src: url('/ruta/a/la/fuente/Bordas.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+  
+::-webkit-scrollbar {
+  width: 14px; /* Ancho del scrollbar */
+}
+
+/* Estilo del thumb (barra de desplazamiento) */
+::-webkit-scrollbar-thumb {
+  border: 3px solid #333333;
+  background-color: #ffb300; /* Color del thumb */
+  border-radius: 999px; /* Borde redondeado del thumb */
+}
+
+/* Estilo del track (fondo del scrollbar) */
+::-webkit-scrollbar-track {
+  background-color: #333333; /* Color de fondo del track */
+}
+
+*{
+  scroll-behavior: smooth;
+  font-family: 'PantonDemo-Light', sans-serif;
+}
+
+.bg-img-slider-1 {
+  background-image: url('../img/img_header.png');
+}
+
+.bg-img-slider-2 {
+  background-image: url('../img/slider_1.png');
+}
+
+.bg-img-slider-3 {
+  background-image: url('../img/img_proteccion.png');
+}
+
+
+.titulo{
+  font-size: 2.6rem;
+  font-weight: bold;
+  line-height: normal;
+  text-align: right;
+}
+.subtitulo{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.texto1{
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: normal;
+}
+.texto2{
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: normal;
+}
+.btn{
+  font-size: 1.2rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .titulo{font-size: 4.6rem;}
+  .subtitulo{font-size: 1.8rem;}
+  .texto1{font-size: 2.8rem;}
+  .texto2{font-size: 1.8rem;}
+}
+
+@media only screen and (min-width: 1024px) {
+  .titulo{font-size: 6.6rem;}
+  .subtitulo{font-size: 2.8rem;}
+  .texto1{font-size: 3.2rem;}
+  .texto2{font-size: 2rem;}
+}
+
+@media only screen and (min-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 1536px) {
+
+}

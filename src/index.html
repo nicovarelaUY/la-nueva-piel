@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Nueva Piel</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/config.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+      const firebaseConfig = {
+        apiKey: "AIzaSyCshSaYSSZVxnGP2Ffr8HEm_i5ECsuyM9A",
+        authDomain: "lanuevapiel-1f776.firebaseapp.com",
+        projectId: "lanuevapiel-1f776",
+        storageBucket: "lanuevapiel-1f776.appspot.com",
+        messagingSenderId: "251967469995",
+        appId: "1:251967469995:web:a3eaf7582fb8948b1cbaee",
+        measurementId: "G-FSGN2YTLVX"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+</head>
+<body class="p-0 m-0 w-screen overflow-x-hidden">
+
+  <header class="hidden sm:block">
+    <nav class="bg-secondary p-8 text-2xl text-principal_1 flex flex-row gap-10 justify-center" style="font-family: 'PantonDemo-Light', sans-serif;">
+      <a href="#proyecto_div">PROYECTO</a>
+      <a href="#proteccion_div">PROTECCIÓN</a>
+      <a href="#noticias_div">NOTICIAS</a>
+      <a href="#contacto_div">CONTACTO</a>
+    </nav>
+  </header>
+  <div id="home" class="relative min-h-[60vh] md:min-h-[70vh] lg:min-h-[90vh] h-fit bg-img-slider-1  bg-cover bg-no-repeat bg-center flex flex-col m-auto justify-center items-center">
+    <div class="w-[90%] md:w-7/12 lg:w-7/12">
+      <img src="img/logotipo.png" alt="" class="w-full">
+    </div>
+
+    <img class="absolute bottom-5 right-20 hidden lg:block" src="img/logo_comision_color.png" alt="">
+    <div class="absolute bottom-0 left-0 bg-principal_2 px-5 py-2">
+      <p class="subtitulo text-blanco md:pl-10 -tracking-widest" style=" letter-spacing: 0.1em; font-family: 'Bordas', sans-serif;">PROYECTO</p>
+    </div>
+  </div>
+
+
+  <div id="cuidados" class="px-0 m-0 h-fit lg:min-h-[70vh] bg-primary bg-cover bg-no-repeat bg-center flex flex-col justify-center lg:py-5 lg:px-14">
+    <div id="proyecto_div" class="flex flex-col items-end gap-4 w-12/12 mx-auto">
+      <iframe class="w-screen lg:w-[65vw]" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/NU70jmfeDcI?si=N0IjaUjtAXusOO7T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class="relative min-h-[30vh] md:min-h-[50vh] lg:min-h-[40vh] bg-principal_2 py-10 md:px-10">
+    <div class="flex flex-col gap-10 p-5 pb-20 w-11/12 lg:w-11/12 xl:w-8/12 mx-auto">
+      <p class="text-principal_1 texto1" style="font-family: 'Archivo-BOLD-VariableFon', sans-serif;">Una iniciativa impulsada por el club 
+        Rayo Rojo y La Comisión Honoraria 
+        de Lucha Contra el Cancer, 
+        para que niñas y niños estén más 
+        protegidos DE LOS RAYOS UV 
+        mientras juegan.</p>
+
+        <p class="texto2 text-primary" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">
+          La primera camiseta <br>
+          de baby fútbol del mundo <br>
+          con tecnología UPF 50. <br>
+        </p>
+    </div>
+
+    <div class="absolute bottom-0 left-0 bg-principal_1 px-5 py-2">
+      <p class="subtitulo text-blanco md:pl-10 -tracking-widest" style=" letter-spacing: 0.1em; font-family: 'Bordas', sans-serif;">CONOCÉ MÁS</p>
+    </div>
+  </div>
+
+
+
+  <div class="relative min-h-[30vh] md:min-h-[50vh] lg:min-h-[40vh] bg-gris py-10 md:px-10">
+    <div class="flex flex-col gap-10 p-5 pb-20 w-11/12 lg:w-11/12 xl:w-8/12 mx-auto">
+
+      <p class="texto2 text-blanco" style="font-family: 'Archivo-VariableFont', sans-serif;">
+        <span class=" text-primary" style="font-family: 'Archivo-BOLD-VariableFon', sans-serif;">LA NUEVA PIEL</span> <br><br>
+        Cada vez que un equipo de fútbol lanza una nueva camiseta, la presenta como “la nueva piel”, por eso llamamos así a esta iniciativa única que crea camisetas de fútbol infantil con tecnología UPF 50, que brindan protección contra el 98% de la radiación ultravioleta (UV) del sol. Es una nueva piel, para proteger la piel de los más chicos.
+      </p>
+      <div id="hs-show-hide-collapse-heading" class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-show-hide-collapse">
+        <p class="texto2 text-blanco" style="font-family: 'Archivo-VariableFont', sans-serif;">
+          El cuidado en esta etapa es especialmente importante, ya que el 80% del daño de los rayos UV del sol en la piel, se producen antes de los 18 años.
+<BR></BR>
+          Desde la Comisión Honoraria de la Lucha Contra el Cáncer siempre 
+          buscamos concientizar sobre los problemas derivados de la excesiva 
+          exposición solar, haciendo énfasis en la promoción de hábitos de protección 
+          solar en niños y niñas durante sus actividades al aire libre, buscando que 
+          perduren a lo largo de toda su vida. 
+<BR></BR>
+          Esta camiseta, “La nueva piel”,  es el puntapié inicial de un novedoso trabajo 
+          educativo sobre varios aspectos del cuidado de la piel frente al sol, que 
+          ya estamos implementando junto a los directivos, equipo técnico, padres, madres 
+          y especialmente los y las protagonistas: niños y niñas que juegan en el equipo. 
+<BR></BR>
+          Es fundamental apoyar a los equipos para que puedan disfrutar de la práctica 
+          de deportes al aire libre, en este caso el fútbol, tomando las medidas necesarias 
+          para protegerse de los rayos UV. De esta forma, los beneficios para la salud que 
+          aporta el deporte serán mayores tanto para los niños y niñas que juegan como 
+          a sus entrenadores y familias que acompañan.
+
+        </p>
+      </div>
+      <p class="mt-2">
+        <button type="button" class="hs-collapse-toggle inline-flex items-center gap-x-1 px-6 py-2 bg-primary text-blanco disabled:opacity-50 disabled:pointer-events-none" id="hs-show-hide-collapse" data-hs-collapse="#hs-show-hide-collapse-heading">
+          <span class="hs-collapse-open:hidden" style=" letter-spacing: 0.1em; font-family: 'Bordas', sans-serif;">Ver más</span>
+          <span class="hs-collapse-open:block hidden" style=" letter-spacing: 0.1em; font-family: 'Bordas', sans-serif;">Ver menos</span>
+          <svg class="hs-collapse-open:rotate-180 flex-shrink-0 w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+      </p>
+      
+    </div>
+
+    <div class="absolute bottom-0 left-0 bg-principal_1 px-5 py-2">
+      <p class="subtitulo text-blanco md:pl-10 -tracking-widest" style=" letter-spacing: 0.1em; font-family: 'Bordas', sans-serif;">NUESTRO MENSAJE</p>
+    </div>
+  </div>
+
+
+  <div id="cuidados" class="px-0 m-0 h-fit lg:min-h-[70vh] bg-primary bg-cover bg-no-repeat bg-center flex flex-col justify-center lg:py-5 lg:px-14">
+    <div class="flex flex-col items-end gap-4 w-12/12 mx-auto">
+      <iframe class="w-screen lg:w-[65vw]" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/7AfMjgSN_jY?si=vGTvD-UHXXblpf0K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+
+<div class="relative h-fit bg-principal_2 px-5 py-10 md:px-14">
+  <div id="proteccion_div" class="flex flex-col gap-10 w-11/12 lg:w-11/12 xl:w-8/12 mx-auto pb-20">
+    <p class="text-blanco texto1 w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">Cuando practicamos deportes al aire libre solemos 
+      pasar períodos prolongados de tiempo al aire libre, 
+      y cuanto más expuestos estemos, mayor será el riesgo.
+      <span style="font-family: 'Archivo-BOLD-VariableFon', sans-serif;" class="text-primary">Por eso es necesario fomentar medidas de protección:</span></p>
+
+
+    <div class="grid grid-cols-1 justify-center gap-10 w-full text-center">
+
+      <div class="flex flex-col lg:flex-row items-center text-start w-full">
+        <div class="w-10/12 lg:w-4/12 ">
+          <img src="img/icons/ropa.svg" alt="" class="w-full">
+        </div>
+        <div class="w-full lg:w-11/12 xl:w-8/12 flex flex-col gap-5">
+          <p class="text-principal_1 text-4xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">Cubrirse lo más posible con ropa de trama compacta y colores oscuros.</p>
+          <p class="text-blanco text-xl md:text-2xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">
+            La ropa es la forma más simple, práctica y económica de protección solar.
+            Usá ropa que cubra la mayor cantidad de piel posible, con tejidos de 
+            trama cerrada y colores oscuros como negro, azul, rojo y violeta. 
+            La ropa mojada brinda menor protección.
+            Lo ideal es vestimenta hecha con tela que cuenta con factor de protección
+            ultravioleta (UPF) indicado en la etiqueta de la prenda. 
+            En este caso la nueva camiseta del Rayo Rojo cuenta con UPF 50,
+            la protección más alta
+          </p>
+        </div>
+      </div>
+
+      <div id="hs-show-hide-collapse-heading-2" class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-show-hide-collapse">
+
+
+        <div class="flex flex-col lg:flex-row items-center text-start w-full">
+          <div class="w-10/12 lg:w-4/12 ">
+            <img src="img/icons/sombrero.svg" alt="" class="w-full">
+          </div>
+          <div class="w-full lg:w-11/12 xl:w-8/12 flex flex-col gap-5">
+            <p class="text-principal_1 text-4xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">Sombreros que den sombra sobre 
+              la cara, orejas y cuello.
+              </p>
+            <p class="text-blanco text-xl md:text-2xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">
+              El sombrero de ala ancha o el llamado legionario que cubra cara, 
+              orejas y nuca. Además, estos gorros reducen la exposición de los ojos 
+              a la radiación UV. Los gorros de visera no son los más adecuados, pero si 
+              ya tenés uno, podés agregarle una tela.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row items-center text-start w-full">
+          <div class="w-10/12 lg:w-4/12 ">
+            <img src="img/icons/protector.svg" alt="" class="w-full">
+          </div>
+          <div class="w-full lg:w-11/12 xl:w-8/12 flex flex-col gap-5">
+            <p class="text-principal_1 text-4xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">Filtro solar factor 30 o más.</p>
+            <p class="text-blanco text-xl md:text-2xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">
+              Cubrirse las zonas de tu piel expuestas al sol con protector solar 
+              factor 30 o superior. <br>El protector solar se aplica en forma abundante en la piel seca 
+              30 minutos antes de exponerse al sol, lo que permite una mejor absorción. 
+              Es necesario replicarlo cada 3 horas, y usarlo cada vez que nos exponemos 
+              al sol ya que siempre hay que cuidar la piel, no solo en verano. <br>El protector disminuye la intensidad de la radiación UV pero no la bloquea. <br>Usarlo no es sinónimo de protección solar al 100%. 
+              
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row items-center text-start w-full">
+          <div class="w-10/12 lg:w-4/12 ">
+            <img src="img/icons/lentes.svg" alt="" class="w-full">
+          </div>
+          <div class="w-full lg:w-11/12 xl:w-8/12 flex flex-col gap-5">
+            <p class="text-principal_1 text-4xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">Lentes filtro UVA y UVB.</p>
+            <p class="text-blanco text-xl md:text-2xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">
+              Los lentes de sol con filtro UVA y UVB bloquean un gran porcentaje 
+de la radiación UV que daña la vista.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row items-center text-start w-full">
+          <div class="w-10/12 lg:w-4/12 ">
+            <img src="img/icons/paraguas.svg" alt="" class="w-full">
+          </div>
+          <div class="w-full lg:w-11/12 xl:w-8/12 flex flex-col gap-5">
+            <p class="text-principal_1 text-4xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">Los lugares sombreados ayudan 
+              a evitar o limitar la exposición solar. </p>
+            <p class="text-blanco text-xl md:text-2xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">
+              Son ideales las sombrillas de telas compactas, las enramadas, árboles o 
+              techos. Especialmente se recomienda contar con zonas arboladas alrededor
+              de  las canchas para los tiempos de espera de los jugadores y para los 
+              entrenadores y espectadores.
+              
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row items-center text-start w-full">
+          <div class="w-10/12 lg:w-4/12 ">
+            <img src="img/icons/horario.svg" alt="" class="w-full">
+          </div>
+          <div class="w-full lg:w-11/12 xl:w-8/12 flex flex-col gap-5">
+            <p class="text-principal_1 text-4xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">Evitar exponerse directamente 
+              al sol entre las 10 y las 16 hs. </p>
+            <p class="text-blanco text-xl md:text-2xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">
+              Buscar la sombra especialmente en esos horarios sobretodo
+              en primavera y verano.  
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row items-center text-start w-full">
+          <div class="w-10/12 lg:w-4/12 ">
+            <img src="img/icons/agua.svg" alt="" class="w-full">
+          </div>
+          <div class="w-full lg:w-11/12 xl:w-8/12 flex flex-col gap-5">
+            <p class="text-principal_1 text-4xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">También ayuda consumir abundante 
+              agua y jugos de frutas a lo largo del día.   </p>
+            <p class="text-blanco text-xl md:text-2xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">
+
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row items-center text-start w-full">
+          <div class="w-10/12 lg:w-4/12 ">
+            <img src="img/icons/medico.svg" alt="" class="w-full">
+          </div>
+          <div class="w-full lg:w-11/12 xl:w-8/12 flex flex-col gap-5">
+            <p class="text-principal_1 text-4xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">Consulta al médico.</p>
+            <p class="text-blanco text-xl md:text-2xl w-fit" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">
+              En importante visitar al médico anualmente para que realice una revisión 
+              del estado de la salud de la piel.
+            </p>
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+
+      <p class="mt-2">
+        <button type="button" class="hs-collapse-toggle inline-flex items-center gap-x-1 px-6 py-2 bg-primary text-blanco disabled:opacity-50 disabled:pointer-events-none" id="hs-show-hide-collapse" data-hs-collapse="#hs-show-hide-collapse-heading-2">
+          <span class="hs-collapse-open:hidden" style=" letter-spacing: 0.1em; font-family: 'Bordas', sans-serif;">Ver más</span>
+          <span class="hs-collapse-open:block hidden" style=" letter-spacing: 0.1em; font-family: 'Bordas', sans-serif;">Ver menos</span>
+          <svg class="hs-collapse-open:rotate-180 flex-shrink-0 w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+      </p>
+
+
+    </div>
+  </div>
+
+  <div class="absolute bottom-0 left-0 bg-principal_1 px-5 py-2">
+    <p class="subtitulo text-blanco md:pl-10 -tracking-widest" style=" letter-spacing: 0.1em; font-family: 'Bordas', sans-serif;">PADRES, MADRES Y LIGA</p>
+  </div>
+</div>
+
+<div id="cuidados" class="px-0 m-0 h-fit lg:min-h-[70vh] bg-primary bg-cover bg-no-repeat bg-center flex flex-col justify-center lg:py-5 lg:px-14">
+  <div class="flex flex-col items-end gap-4 w-12/12 mx-auto">
+    <iframe class="w-screen lg:w-[65vw]" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/lxAHLqnNBgU?si=qfg4U_Xyv0Kk-ypJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+<div class="relative min-h-[30vh] md:min-h-[50vh] lg:min-h-[40vh] bg-gris py-10 md:px-10">
+  <div class="flex flex-col gap-10 p-5 pb-20 w-11/12 lg:w-11/12 xl:w-8/12 mx-auto">
+
+    <p class="texto2 text-blanco" style="font-family: 'Archivo-VariableFont', sans-serif;">
+      <span class=" text-primary" style="font-family: 'Archivo-BOLD-VariableFon', sans-serif;">Practicar deportes al aire libre</span> <br><br>
+      Está comprobado que una vida activa, realizar ejercicios y más aún practicar 
+      deportes colectivos, como en este caso el fútbol, son factores protectores frente a diversas enfermedades no trasmisibles como lo son diferentes tipos de cáncer, enfermedades cardiovasculares y diabetes.
+
+    </p>
+    <div id="hs-show-hide-collapse-heading-3" class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-show-hide-collapse">
+      <p class="texto2 text-blanco" style="font-family: 'Archivo-VariableFont', sans-serif;">
+        
+        Sin embargo, si estos deportes, especialmente el fútbol que moviliza cientos de 
+        miles de personas por ser parte esencial de la cultura uruguaya, se practican 
+        al aire libre, todos quienes participan: jugadores, entrenadores, espectadores 
+        y familias cuando se trata del fútbol infantil, pueden exponerse a los riegos asociados 
+        a la radiación UV solar. 
+        <br><br>
+        Sabemos que demasiada exposición a la radiación UV provoca daños, por eso cuando 
+        tomamos medidas de protección solar buscamos disminuir las quemaduras solares, 
+        ampollas, reducir los casos de cáncer de piel y otras enfermedades de la piel y la vista 
+        relacionadas con esta causa. 
+        <br><br>
+        Un concepto importante es respetar el color natural de la piel, comprendiendo que 
+        una piel bronceada no es sinónimo de salud, es una piel dañada, muestra la reacción 
+        de defensa de la piel ante la exposición solar. La piel tiene memoria y el daño se 
+        acumula a lo largo del tiempo con las sucesivas exposiciones.
+        <br><br>
+        Los días nublados, frescos y ventosos también hay que protegerse. Muchas veces 
+        sentimos menos calor y hay una falsa sensación de protección pero la radiación
+        ultravioleta (UV), que no se ve, traspasa las nubes e igual produce daño.
+        <br><br>
+        Es necesario protegerse del sol durante todo el año, pero muy especialmente desde
+        mediados de setiembre hasta fines de marzo, cuando las radiaciones UV son más 
+        intensas. Una forma de darse cuenta es “La regla de la sombra”: cuando se está 
+        al aire libre, si la sombra es más chica, significa que los rayos del sol están muy 
+        fuertes y esnecesario asegurarse la protección de la piel.
+        
+
+      </p>
+    </div>
+    <p class="mt-2">
+      <button type="button" class="hs-collapse-toggle inline-flex items-center gap-x-1 px-6 py-2 bg-primary text-blanco disabled:opacity-50 disabled:pointer-events-none" id="hs-show-hide-collapse" data-hs-collapse="#hs-show-hide-collapse-heading-3">
+        <span class="hs-collapse-open:hidden" style=" letter-spacing: 0.1em; font-family: 'Bordas', sans-serif;">Ver más</span>
+        <span class="hs-collapse-open:block hidden" style=" letter-spacing: 0.1em; font-family: 'Bordas', sans-serif;">Ver menos</span>
+        <svg class="hs-collapse-open:rotate-180 flex-shrink-0 w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+    </p>
+
+    
+</div>
+<!--   <div class="absolute bottom-0 left-0 bg-principal_1 px-5 py-2">
+    <p class="subtitulo text-blanco md:pl-10 -tracking-widest" style=" letter-spacing: 0.1em; font-family: 'Bordas', sans-serif;">NOTICIAS</p>
+  </div> -->
+</div>
+
+
+<!-- Slider -->
+<!-- 
+<div data-hs-carousel='{
+  "loadingClasses": "opacity-0",
+  "isAutoPlay": true
+}'
+class="relative w-full p-0 m-0">
+
+<div class="hs-carousel relative overflow-hidden w-full bg-white rounded-lg aspect-video p-0 m-0">
+  <div class="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0 p-0 m-0">
+    
+    <div class="hs-carousel-slide p-0 m-0">
+      <div class="flex justify-center h-full bg-gray-100 p-0 m-0">
+        <div class="w-full" ><iframe class="w-screen h-full" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/8YY2c2u9L2c?si=EdC8c44CMAuIyxfo&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      </div>
+    </div>
+
+    <div class="hs-carousel-slide p-0 m-0">
+      <div class="flex justify-center h-full bg-gray-200 p-0 m-0">
+        <div class="w-full" ><iframe class="w-screen h-full" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/8YY2c2u9L2c?si=EdC8c44CMAuIyxfo&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      </div>
+    </div>
+
+    <div class="hs-carousel-slide p-0 m-0">
+      <div class="flex justify-center h-full bg-gray-300 p-0 m-0">
+        <div class="w-full" ><iframe class="w-screen h-full" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/8YY2c2u9L2c?si=EdC8c44CMAuIyxfo&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<button type="button" class="hs-carousel-prev hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 start-0 inline-flex justify-center items-center w-[46px] h-full text-gray-800 hover:bg-gray-800/[.1]">
+  <span class="text-2xl" aria-hidden="true">
+    <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffff" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+    </svg>
+  </span>
+  <span class="sr-only">Previous</span>
+</button>
+<button type="button" class="hs-carousel-next hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 end-0 inline-flex justify-center items-center w-[46px] h-full text-gray-800 hover:bg-gray-800/[.1]">
+  <span class="sr-only">Next</span>
+  <span class="text-2xl" aria-hidden="true">
+    <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffff" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+    </svg>
+  </span>
+</button>
+
+<div class="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 space-x-2">
+  <span class="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 w-3 h-3 border border-blanco rounded-full cursor-pointer"></span>
+  <span class="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 w-3 h-3 border border-blanco rounded-full cursor-pointer"></span>
+  <span class="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 w-3 h-3 border border-blanco rounded-full cursor-pointer"></span>
+</div>
+</div>
+ -->
+
+
+
+
+
+<footer id="contacto_div" class="h-fit bg-principal_2 flex flex-col">
+  <div class="flex flex-col gap-10 p-2 md:px-14 mx-auto w-full " style="padding-top: 8%;">
+    <div class="flex flex-col lg:flex-row gap-5 lg:px-[15%]">
+      <p class="text-principal_1 texto1 text-center lg:text-start" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">Este proyecto es <br>una iniciativa de:</p>
+      <div class="w-fit flex flex-row gap-20 self-center">
+        <img src="img/logos.png " class="scale-75" alt="">
+      </div>
+    </div>
+    
+    <div class="flex flex-col lg:flex-row items-center lg:px-[15%]">
+      <p class="text-principal_1 texto2 text-center lg:text-start" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">Apoyan:</p>
+      <div class="w-fit flex flex-row gap-2">
+        <img src="img/logosDermatologia.png " class="scale-75" alt="">
+      </div>
+    </div>
+    
+    <p class="text-sm text-center text-blanco pb-10 w-full break-words lg:text-left lg:text-2xl lg:px-[15%]" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">
+      <span class="text-primary" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">Para apoyar escribinos a</span> <br> 
+    areaeducacion@comisioncontraelcancer.com.uy <br>
+    <span class="text-primary" style="font-family: 'Archivo-Italic-VariableFon', sans-serif;">o llamá al</span> 24020807 - 24020809
+    </p>
+  </div>
+
+  <div class="bg-negro">
+    <p class="text-blanco text-center p-5" style="font-family: 'Panton-Trial-ExtraLightItalic', sans-serif;">Todos los derechos reservados al club Rayo Rojo y la Comision Contra el Cancer.</p>
+  </div>
+</footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/preline@2.0.2/dist/preline.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
